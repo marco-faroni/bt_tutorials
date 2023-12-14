@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="namespace" default=""/>
+  <node pkg="bt_tutorials" type="bt_tutorials_node" name="bt_tutorials_node" output="screen">
+    <!--<remap from="/topic_outside" to="/topic_inside"/> -->
+  </node>
+</launch>
